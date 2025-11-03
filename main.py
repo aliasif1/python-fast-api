@@ -1,4 +1,4 @@
 import uvicorn
 
 if __name__ == "__main__":
-    uvicorn.run("app:app.app", host="0.0.0.0", port=8880, log_level="debug", reload=True)
+    uvicorn.run("app.app:app", host="0.0.0.0", port=8880, log_level="debug", reload=True)
